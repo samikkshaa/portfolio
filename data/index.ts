@@ -1,3 +1,5 @@
+import { link } from "fs";
+
 export const navItems = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
@@ -221,13 +223,16 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    link: "https://github.com/samikkshaa",
   },
   {
     id: 2,
     img: "https://cdn.iconscout.com/icon/free/png-256/free-leetcode-logo-icon-download-in-svg-png-gif-file-formats--technology-social-media-company-vol-1-pack-logos-icons-3030025.png",
+    link: "https://leetcode.com/u/sam_ikkshaa/",
   },
   {
     id: 3,
     img: "/link.svg",
+    link: "https://www.linkedin.com/in/samiksha-vaish-1a2055302/",
   },
 ];
