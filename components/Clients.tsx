@@ -1,7 +1,6 @@
 import React from 'react'
 import { InfiniteMovingCards } from './ui/InfiniteMovingCard'
 import {  testimonials } from '@/data'
-import { div } from 'motion/react-client'
 
 const Clients = () => {
   return (

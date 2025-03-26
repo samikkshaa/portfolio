@@ -1,5 +1,3 @@
-import { desc, div, img } from 'motion/react-client'
-import { title } from 'process'
 import React from 'react'
 import { PinContainer } from './ui/3d-pin'
 import { projects } from '@/data'
