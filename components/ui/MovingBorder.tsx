@@ -25,7 +25,7 @@ export function Button({
   as?: keyof JSX.IntrinsicElements; 
   containerClassName?: string;
   borderClassName?: string;
-  duration?: number;~
+  duration?: number;
   className?: string;
 }  & React.ComponentPropsWithoutRef<typeof Component>) {
   const ComponentTag = Component as React.ElementType;
