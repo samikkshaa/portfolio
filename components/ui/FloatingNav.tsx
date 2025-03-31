@@ -25,7 +25,6 @@ export const FloatingNav = ({
   const [visible, setVisible] = useState(false);
 
   useMotionValueEvent(scrollYProgress, "change", (current) => {
-    // Check if current is not undefined and is a number
     if (typeof current === "number") {
       const direction = current! - scrollYProgress.getPrevious()!;
 
@@ -60,8 +59,8 @@ export const FloatingNav = ({
           className
         )}
       >
-        {navItems.map((navItem: any, idx: number) => (
-          <Link
+        {navItems.map((navItem: { name: string; link: string; icon?: JSX.Element }, idx: number) => (
+           <Link
             key={`link=${idx}`}
             href={navItem.link}
             className={cn(
